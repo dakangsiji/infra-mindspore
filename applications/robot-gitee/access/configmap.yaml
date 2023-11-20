@@ -47,6 +47,7 @@ data:
         - robot-gitee-openeuler-tech4dx-label
         - datastat-server
         - robot-gitee-pr-message
+        - robot-gitee-pr-review
         
         src-openeuler:
         - openeuler-ipb
@@ -519,6 +520,12 @@ data:
 
       - name: robot-gitee-pr-message
         endpoint: https://prmessage.test.osinfra.cn/hook/analyze
+        events:
+        - "Merge Request Hook"
+        - "Note Hook"
+
+      - name: robot-gitee-pr-review
+        endpoint: https://pr-review.test.osinfra.cn/hook/analyze
         events:
         - "Merge Request Hook"
         - "Note Hook"
