@@ -48,7 +48,7 @@ data:
         number_of_approvers: 1
         total_number_of_approvers: 2
         total_number_of_reviewers: 1
-        endpoint_to_recommend_reviewer: https://omapi.test.osinfra.cn/query/reviewer/recommend
+        endpoint_to_recommend_reviewer: https://dsapi.osinfra.cn/query/reviewer/recommend
         
     - repos:
         - mindspore/graphlearning
@@ -60,5 +60,5 @@ data:
         number_of_approvers: 1
         total_number_of_approvers: 2
         total_number_of_reviewers: 2
-        endpoint_to_recommend_reviewer: https://omapi.test.osinfra.cn/query/reviewer/recommend    
+        endpoint_to_recommend_reviewer: https://dsapi.osinfra.cn/query/reviewer/recommend
         
