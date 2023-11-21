@@ -88,7 +88,7 @@ metadata:
   name: mindspore-console
   namespace: website
 spec:
-  replicas: 0
+  replicas: 1
   strategy:
     rollingUpdate:
       maxUnavailable: 1
