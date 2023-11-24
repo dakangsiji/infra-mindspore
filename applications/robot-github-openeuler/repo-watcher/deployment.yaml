@@ -25,6 +25,12 @@ spec:
       - name: secret-volume
         secret:
           secretName: secret-robot-token
+      - name: APP_ID
+        secret:
+          secretName: app_id
+      - name: APP_SECRET
+        secret:
+          secretName: app_secret
       - name: app-config
         configMap:
           name: config
