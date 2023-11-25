@@ -20,4 +20,4 @@ namespace: robot-github-openeuler
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github
   newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github-openeuler-repo-watcher
-  newTag: main-ca85bc
+  newTag: main-b01bc9
