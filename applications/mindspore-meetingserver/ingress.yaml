@@ -1,0 +1,20 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  name: meetingserver-ingress
+  namespace: mindspore-meetingserver
+spec:
+  rules:
+  - host: meetings-mindspore.test.osinfra.cn
+    http:
+      paths:
+      - backend:
+          serviceName: meeting-service
+          servicePort: 8080
+        path: /        
+  tls:
+  - hosts:
+    - meetings-mindspore.test.osinfra.cn
+    secretName: meetingserver-tls
