@@ -236,6 +236,9 @@ data:
         mindspore/models:
         - robot-gitee-mindspore-review-trigger
 
+        mindspore/mindarmour:
+        - robot-gitee-mindspore-review-trigger
+
         ms-incubator:
         - robot-gitee-mindspore-cla
         
