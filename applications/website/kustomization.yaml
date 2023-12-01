@@ -11,3 +11,6 @@ resources:
 - pvc.yaml
 - console.yaml
 - website-api.yaml
+replicas:
+- count: 1
+  name: mindspore-console
