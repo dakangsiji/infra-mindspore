@@ -12,4 +12,4 @@ images:
   newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/xihe/xihe-internal-server
   newTag: main-fd17336
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/xihe/xihe-internal-server
-  newTag: 1bb9d168e8538ef225dd6aa2f4108e284dfa56ef
+  newTag: e48e5995b9cf1f47e3c05bbd43546e8508f19ccb
