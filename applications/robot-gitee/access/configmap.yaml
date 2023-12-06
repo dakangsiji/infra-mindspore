@@ -59,6 +59,7 @@ data:
         - robot-gitee-openeuler-cla
         - robot-gitee-openeuler-tech4dx-label
         - datastat-server
+        - software-pkg-test
         
         openeuler-competition:
         - robot-gitee-openeuler-label
@@ -532,6 +533,12 @@ data:
 
       - name: robot-gitee-pr-review
         endpoint: https://pr-review.test.osinfra.cn/hook/analyze
+        events:
+        - "Merge Request Hook"
+        - "Note Hook"
+        
+      - name: software-pkg-test
+        endpoint: https://software-pkg.test.osinfra.cn/hook-delivery/gitee-hook
         events:
         - "Merge Request Hook"
         - "Note Hook"
