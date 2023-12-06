@@ -59,7 +59,6 @@ data:
         - robot-gitee-openeuler-cla
         - robot-gitee-openeuler-tech4dx-label
         - datastat-server
-        - software-pkg-test
         
         openeuler-competition:
         - robot-gitee-openeuler-label
@@ -125,6 +124,9 @@ data:
 
         src-openeuler/opendmarc:
         - ci-tools
+        
+        src-openeuler/software-package-server:
+        - software-pkg-test
 
         ascend:
         - robot-gitee-ascend-assign
