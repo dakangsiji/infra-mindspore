@@ -204,6 +204,7 @@ data:
       - ascend/ModelZoo-PyTorch
       - ascend/modelzoo-GPL
       - ascend/ads
+      - ascend/MindSeed
       merge_method: squash
       labels:
       - label: lgtm

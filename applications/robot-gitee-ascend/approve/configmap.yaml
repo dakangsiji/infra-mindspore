@@ -12,6 +12,7 @@ data:
       - ascend/AscendSpeed
       - ascend/ModelLink
       - ascend/ads
+      - ascend/MindSeed
       require_self_approval: true      
 
     - repos:
