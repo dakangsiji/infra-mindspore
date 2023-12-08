@@ -16,4 +16,4 @@ nameSuffix: -openeuler-review
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github
   newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github-openeuler-review
-  newTag: main-9e385e2
+  newTag: main-cba550
