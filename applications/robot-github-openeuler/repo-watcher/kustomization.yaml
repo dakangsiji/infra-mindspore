@@ -5,4 +5,4 @@ resources:
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github
   newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github-openeuler-repo-watcher
-  newTag: main-e99cd8f
+  newTag: main-b01bc9
