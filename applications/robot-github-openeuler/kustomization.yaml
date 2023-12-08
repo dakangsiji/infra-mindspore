@@ -17,7 +17,3 @@ commonAnnotations:
   email: chenzeng765@163.com
   owner: chenzeng
 namespace: robot-github-openeuler
-images:
-- name: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github
-  newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github-openeuler-repo-watcher
-  newTag: main-b01bc9
