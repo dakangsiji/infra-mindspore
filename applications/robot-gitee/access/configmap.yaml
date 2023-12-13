@@ -48,6 +48,7 @@ data:
         - datastat-server
         - robot-gitee-pr-message
         - robot-gitee-pr-review
+        - defect-manager
         
         src-openeuler:
         - openeuler-ipb
@@ -59,6 +60,7 @@ data:
         - robot-gitee-openeuler-cla
         - robot-gitee-openeuler-tech4dx-label
         - datastat-server
+        - defect-manager
         
         openeuler-competition:
         - robot-gitee-openeuler-label
@@ -543,4 +545,10 @@ data:
         endpoint: https://software-pkg.test.osinfra.cn/hook-delivery/gitee-hook
         events:
         - "Merge Request Hook"
+        - "Note Hook"
+    
+      - name: defect-manager
+        endpoint: https://robot-defect.openeuler.org/gitee-hook
+        events:
+        - "Issue Hook"
         - "Note Hook"
