@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/xihe/xihe-statistics
-  newTag: e66d05305f8496af7598c541c881829587bbfa60
+  newTag: c281c0c15744181b8053337362e679e3eceb9ea9
 kind: Kustomization
 namespace: xihe-new
 resources:
