@@ -48,7 +48,6 @@ data:
         - datastat-server
         - robot-gitee-pr-message
         - robot-gitee-pr-review
-        - defect-manager
         
         src-openeuler:
         - openeuler-ipb
@@ -60,7 +59,6 @@ data:
         - robot-gitee-openeuler-cla
         - robot-gitee-openeuler-tech4dx-label
         - datastat-server
-        - defect-manager
         
         openeuler-competition:
         - robot-gitee-openeuler-label
