@@ -16,4 +16,4 @@ nameSuffix: -tide
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-gitee
   newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-gitee-tide
-  newTag: mindspore-77a693
+  newTag: mindspore-2c832d
