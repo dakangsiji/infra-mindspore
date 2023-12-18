@@ -12,3 +12,25 @@ spec:
   selector:
     app: website
   type: ClusterIP
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kubernetes.io/elb.class: union
+    kubernetes.io/elb.id: 3be711c8-b216-4c11-9747-f951320ece59
+    kubernetes.io/elb.lb-algorithm: ROUND_ROBIN
+  name: website-service-loadbalencer
+  namespace: website-revision
+spec:
+  externalTrafficPolicy: Cluster
+  ports:
+  - name: httpport
+    port: 8080
+    protocol: TCP
+    targetPort: 8080
+  selector:
+    app: website-v2
+  sessionAffinity: None
+  type: LoadBalancer

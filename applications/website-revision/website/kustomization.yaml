@@ -2,6 +2,7 @@ resources:
 - ingress.yaml
 - service.yaml
 - deployment.yaml
+- sa.yaml
 namespace: website-revision
 commonAnnotations:
   kubernetes.ops.cluster: mindspore-cn4-x86
