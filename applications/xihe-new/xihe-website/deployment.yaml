@@ -97,9 +97,6 @@ spec:
       labels:
         app: xihe-website-v2
     spec:
-      securityContext:
-        seccompProfile:
-          type: RuntimeDefault
       serviceAccount: xihe-website
       imagePullSecrets:
       - name: huawei-swr-image-pull-secret
