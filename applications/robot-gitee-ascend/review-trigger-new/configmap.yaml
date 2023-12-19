@@ -19,6 +19,7 @@ data:
       
     - repos:
         - ascend/AscendSpeed
+        - ascend/AscendSpeed2
       need_welcome: true
       cla_label: "ascend-cla/yes"
       review:

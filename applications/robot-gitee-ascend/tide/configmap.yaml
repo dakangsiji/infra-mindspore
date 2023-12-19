@@ -175,6 +175,7 @@ data:
       - ascend/ascend-devkit-model-adapter
       - ascend/ascend-faster-transformer
       - ascend/AscendSpeed
+      - ascend/AscendSpeed2
       - ascend/ascend-inference
       - ascend/ascend-inference-ptplugin
       labels:

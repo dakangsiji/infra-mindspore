@@ -10,6 +10,7 @@ data:
       excluded_repos:
       - ascend/pytorch
       - ascend/AscendSpeed
+      - ascend/AscendSpeed2
       - ascend/ModelLink
       - ascend/ads
       - ascend/MindSeed
