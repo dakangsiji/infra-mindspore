@@ -29,5 +29,5 @@ spec:
     port: 8080
     targetPort: 8080
   selector:
-    app: xihe-website
+    app: xihe-website-v2
   type: LoadBalancer
