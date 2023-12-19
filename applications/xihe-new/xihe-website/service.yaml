@@ -20,7 +20,7 @@ metadata:
   name: xihe-website-service-loadbalencer
   namespace: xihe-new
   annotations:
-    kubernetes.io/elb.id: 6ab64c83-9203-4486-84ba-414a6c3740f9
+    kubernetes.io/elb.id: 907fdfe6-e7a9-4e42-9efb-1f93faf966c0
     kubernetes.io/elb.class: union
     kubernetes.io/elb.lb-algorithm: ROUND_ROBIN
 spec:
