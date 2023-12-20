@@ -21,7 +21,7 @@ spec:
       imagePullSecrets:
       - name: huawei-swr-image-pull-secret
       containers:
-      - image: swr.cn-north-4.myhuaweicloud.com/om/ds:0.1.28
+      - image: swr.cn-north-4.myhuaweicloud.com/om/ds:0.1.29
         imagePullPolicy: IfNotPresent
         volumeMounts:
         - mountPath: /var/lib/ds/custom.properties
