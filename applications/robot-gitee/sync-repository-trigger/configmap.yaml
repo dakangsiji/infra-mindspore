@@ -18,6 +18,9 @@ data:
         - org: euler-ttttt
           repos:
             - babel
+        - org: modelx
+          repos:
+            - MindSeed
       file_names:
         - OWNERS
 

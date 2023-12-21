@@ -138,6 +138,10 @@ data:
         - robot-gitee-ascend-checkpr
         - robot-gitee-ascend-review-trigger-new
 
+        modelx/MindSeed:
+        - robot-gitee-ascend-tide
+        - robot-gitee-ascend-review-trigger-new
+
         cann/acl:
         - robot-gitee-cann-checkpr
         - robot-gitee-cann-approve

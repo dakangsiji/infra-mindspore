@@ -13,4 +13,3 @@ data:
       - ascend/AscendSpeed2
       - ascend/ModelLink
       - ascend/ads
-      - ascend/MindSeed

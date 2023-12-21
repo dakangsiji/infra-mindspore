@@ -37,9 +37,8 @@ data:
         total_number_of_reviewers: 3
         
     - repos:
-        - ascend/MindSeed
+        - modelx/MindSeed
       need_welcome: true
-      cla_label: "ascend-cla/yes"
       review:
         number_of_approvers: 1
         total_number_of_approvers: 2
