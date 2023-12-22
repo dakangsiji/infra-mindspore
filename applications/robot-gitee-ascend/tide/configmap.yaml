@@ -240,3 +240,8 @@ data:
         tips_if_missing: "Please wait for approvers to review the code."
         person: I-am-a-robot
         tips_if_added_by_others: "You can't add approved label manually. Please remove it and wait for approvers to review your codes."
+        
+      - label: ci-success
+        tips_if_missing: "Please wait for the CI test to be completed."
+        person: xiyuanwang
+        tips_if_added_by_others: "You can't add ci-pipeline-passed label manually. Please remove it and wait for the CI test to be completed."
