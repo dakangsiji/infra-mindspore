@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/xihe/xihe-aicc-finetune
-  newTag: zykdev-5dbf02
+  newTag: zykdev-09f672
