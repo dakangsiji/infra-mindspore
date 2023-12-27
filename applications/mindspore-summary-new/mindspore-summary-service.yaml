@@ -6,9 +6,30 @@ metadata:
 spec:
   ports:
   - name: http-port
-    port: 80
+    port: 8080
     protocol: TCP
     targetPort: 8080
   selector:
     app: mindspore-summary
   type: ClusterIP
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  annotations:
+    kubernetes.io/elb.class: union
+    kubernetes.io/elb.id: 2ea38758-396e-406b-b2c0-f28b3932df3a
+    kubernetes.io/elb.lb-algorithm: ROUND_ROBIN
+  name: mindspore-summary-service-loadbalencer
+  namespace: community-summary
+spec:
+  externalTrafficPolicy: Cluster
+  ports:
+  - name: httpport
+    port: 4180
+    protocol: TCP
+    targetPort: 4180
+  selector:
+    k8s-app: mindspore-oauth2-proxy
+  type: LoadBalancer

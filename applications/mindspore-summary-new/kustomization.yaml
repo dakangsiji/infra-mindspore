@@ -3,10 +3,10 @@ kind: Kustomization
 namespace: mindspore-summary-new
 resources:
 - mindspore-summary-deployment.yaml
-- mindspore-summary-ingress.yaml
 - mindspore-summary-service.yaml
 - oauth-proxy.yaml
 - namespace.yaml
+- sa.yaml
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/mindspore/summary
   newTag: v1.0.20231227182013
