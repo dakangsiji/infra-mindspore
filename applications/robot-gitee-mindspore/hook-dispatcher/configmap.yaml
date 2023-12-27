@@ -6,6 +6,8 @@ data:
   config.yaml: |
     topic: robot-gitee-mindspore
     user_agent: robot-gitee-mindspore
-    kafka_address: "${KAFKA_ADDRESS}"
+    kafka:
+      address: "${KAFKA_ADDRESS}"
+      version: 2.3.0
     access_endpoint: http://service-access.robot-gitee-mindspore.svc.cluster.local:8888/gitee-hook
     concurrent_size: 140
