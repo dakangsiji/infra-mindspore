@@ -16,4 +16,4 @@ nameSuffix: -review-trigger
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-gitee
   newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-gitee-review-trigger
-  newTag: master-8dc76b3
+  newTag: master-2019d8
