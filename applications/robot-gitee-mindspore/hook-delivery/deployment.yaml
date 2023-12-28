@@ -6,7 +6,24 @@ metadata:
 spec:
   replicas: 1
   template:
+    metadata:
+      annotations:
+        vault.hashicorp.com/agent-inject: "true"
+        vault.hashicorp.com/agent-inject-perms-robot-mindspore-token: "0400"
+        vault.hashicorp.com/agent-run-as-user: "1000"
+        vault.hashicorp.com/agent-run-as-group: "1000"
+        vault.hashicorp.com/secret-volume-path: "/app/conf"
+        vault.hashicorp.com/agent-inject-secret-hmac: "internal/data/mindspore/robot-gitee-mindspore"
+        vault.hashicorp.com/agent-inject-template-hmac: |
+          {{- with secret "internal/data/mindspore/robot-gitee-mindspore" -}}
+          {{ .Data.data.WebhookHmac }}
+          {{- end }}
+        vault.hashicorp.com/agent-pre-populate-only: "true"
+        vault.hashicorp.com/role: robot-gitee-mindspore
     spec:
+      imagePullSecrets:
+      - name: huawei-swr-image-pull-secret
+      serviceAccount: robot-gitee-mindspore
       containers:
       - name: hook-delivery
         image: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-gitee:latest
@@ -27,16 +44,10 @@ spec:
           name: http
           protocol: TCP
         volumeMounts:
-        - mountPath: /app/conf/hmac
-          subPath: webhook-hmac
-          name: secret-volume
         - mountPath: /app/conf/app_config/
           name: app-config
           readOnly: true
       volumes:
-      - name: secret-volume
-        secret:
-          secretName: secrets
       - name: app-config
         configMap:
           name: configmap-hook-delivery
