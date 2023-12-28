@@ -8,3 +8,4 @@ data:
     user_agent: robot-gitee-opengauss
     kafka:
       address: "${KAFKA_ADDRESS}"
+      version: 2.3.0
