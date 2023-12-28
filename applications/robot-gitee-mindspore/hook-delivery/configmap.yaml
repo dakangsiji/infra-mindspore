@@ -8,3 +8,4 @@ data:
     user_agent: robot-gitee-mindspore
     kafka:
       address: "${KAFKA_ADDRESS}"
+      version: 2.3.0
