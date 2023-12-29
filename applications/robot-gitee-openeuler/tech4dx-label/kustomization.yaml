@@ -16,4 +16,4 @@ nameSuffix: -tech4dx-label
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-gitee
   newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-gitee-tech4dx-label
-  newTag: master-0bdb8bd
+  newTag: master-63bc95
