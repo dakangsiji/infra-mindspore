@@ -12,5 +12,5 @@ resources:
 - console.yaml
 - website-api.yaml
 replicas:
-- count: 0
+- count: 1
   name: mindspore-console
