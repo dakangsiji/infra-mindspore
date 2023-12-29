@@ -27,6 +27,17 @@ spec:
         - mountPath: /app/conf/robot-github/app_config/
           name: app-config
           readOnly: true
+        env:
+          - name: KAFKA_ADDRESS
+            valueFrom:
+              secretKeyRef:
+                name: secret-hook-delivery
+                key: KAFKA_ADDRESS
+          - name: HMAC
+            valueFrom:
+              secretKeyRef:
+                name: secret-hook-delivery
+                key: HMAC
       volumes:
       - name: secret-volume
         secret:
