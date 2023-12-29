@@ -11,3 +11,6 @@ images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-gitee
   newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github-synchronizer
   newTag: main-8468835
+- name: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github
+  newName: swr.cn-north-4.myhuaweicloud.com/opensourceway/robot/robot-github-synchronizer
+  newTag: main-c75d56
