@@ -138,7 +138,7 @@ data:
         - robot-gitee-ascend-checkpr
         - robot-gitee-ascend-review-trigger-new
 
-        modelx/MindSeed:
+        modelx:
         - robot-gitee-ascend-tide
         - robot-gitee-ascend-review-trigger-new
 

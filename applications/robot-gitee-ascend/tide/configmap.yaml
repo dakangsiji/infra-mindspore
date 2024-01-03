@@ -229,6 +229,8 @@ data:
 
     - repos:
       - modelx/MindSeed
+      - modelx/infra
+      - modelx/docs
       merge_method: squash
       labels:
       - label: lgtm

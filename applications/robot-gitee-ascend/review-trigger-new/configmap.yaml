@@ -44,3 +44,21 @@ data:
         number_of_approvers: 1
         total_number_of_approvers: 2
         total_number_of_reviewers: 3
+
+    - repos:
+        - modelx/infra
+      need_welcome: true
+      cla_label: "modelfoundry-cla/yes"
+      review:
+        number_of_approvers: 1
+        total_number_of_approvers: 1
+        total_number_of_reviewers: 1
+
+    - repos:
+        - modelx/docs
+      need_welcome: true
+      cla_label: "modelfoundry-cla/yes"
+      review:
+        number_of_approvers: 1
+        total_number_of_approvers: 1
+        total_number_of_reviewers: 2
