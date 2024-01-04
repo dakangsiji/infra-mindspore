@@ -127,6 +127,7 @@ data:
         
         src-openeuler/software-package-server:
         - software-pkg-test
+        - software-pkg
 
         ascend:
         - robot-gitee-ascend-assign
@@ -551,7 +552,13 @@ data:
         events:
         - "Merge Request Hook"
         - "Note Hook"
-    
+
+      - name: software-pkg
+        endpoint: https://software-pkg-hook.openeuler.org/hook-delivery/gitee-hook
+        events:
+          - "Merge Request Hook"
+          - "Note Hook"
+
       - name: defect-manager
         endpoint: https://robot-defect.openeuler.org/gitee-hook
         events:
