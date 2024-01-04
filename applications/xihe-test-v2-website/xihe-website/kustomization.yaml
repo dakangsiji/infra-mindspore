@@ -5,4 +5,4 @@ resources:
 - service.yaml
 images:
 - name: swr.cn-north-4.myhuaweicloud.com/opensourceway/xihe/xihe-website-test
-  newTag: staging-d11f5
+  newTag: staging-26d00
