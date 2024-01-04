@@ -3,6 +3,10 @@ kind: Service
 metadata:
   name: meeting-service
   namespace: mindspore-meetingserver
+  annotations:
+    kubernetes.io/elb.id: 5da71f58-4469-4d50-9d3f-d27d31376a15
+    kubernetes.io/elb.class: union
+    kubernetes.io/elb.lb-algorithm: ROUND_ROBIN
 spec:
   ports:
   - name: http-port
@@ -12,4 +16,4 @@ spec:
   selector:
     app: meetingserver
   sessionAffinity: None
-  type: ClusterIP
+  type: LoadBalancer

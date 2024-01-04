@@ -1,5 +1,4 @@
 resources:
-  - ingress.yaml
   - namespace.yaml
   - nginx-purge.yaml
   - poetry-service.yaml
