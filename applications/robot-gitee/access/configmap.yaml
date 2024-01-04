@@ -126,7 +126,6 @@ data:
         - ci-tools
         
         src-openeuler/software-package-server:
-        - software-pkg-test
         - software-pkg
 
         ascend:
@@ -554,7 +553,7 @@ data:
         - "Note Hook"
 
       - name: software-pkg
-        endpoint: https://software-pkg-hook.openeuler.org/hook-delivery/gitee-hook
+        endpoint: https://software-pkg-hook.openeuler.org/gitee-hook
         events:
           - "Merge Request Hook"
           - "Note Hook"
