@@ -6,7 +6,7 @@
   },
   {
     "op": "replace",
-    "path": "/spec/template/spec/volumes/1/configMap/name",
+    "path": "/spec/template/spec/volumes/2/configMap/name",
     "value": "configmap-repo-watcher-openeuler"
   }
 ]
