@@ -248,6 +248,9 @@ data:
 
         mindspore/akg:
         - robot-gitee-mindspore-review-trigger
+    
+        mindspore/community:
+        - robot-gitee-mindspore-review-trigger
 
         ms-incubator:
         - robot-gitee-mindspore-cla
