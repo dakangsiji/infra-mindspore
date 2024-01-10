@@ -20,6 +20,7 @@ data:
     - repos:
         - ascend/AscendSpeed
         - ascend/AscendSpeed2
+        - ascend/ModelLink
       need_welcome: true
       cla_label: "ascend-cla/yes"
       review:
@@ -27,14 +28,6 @@ data:
         total_number_of_approvers: 1
         total_number_of_reviewers: 2
 
-    - repos:
-        - ascend/ModelLink
-      need_welcome: true
-      cla_label: "ascend-cla/yes"
-      review:
-        number_of_approvers: 1
-        total_number_of_approvers: 1
-        total_number_of_reviewers: 3
         
     - repos:
         - modelx/MindSeed
