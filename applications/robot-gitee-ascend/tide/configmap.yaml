@@ -231,6 +231,7 @@ data:
       - modelx/MindSeed
       - modelx/infra
       - modelx/docs
+      - modelx/modelfoundry_hub
       merge_method: squash
       labels:
       - label: lgtm

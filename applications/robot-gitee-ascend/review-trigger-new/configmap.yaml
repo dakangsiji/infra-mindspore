@@ -55,3 +55,12 @@ data:
         number_of_approvers: 1
         total_number_of_approvers: 1
         total_number_of_reviewers: 2
+    
+    - repos:
+        - modelx/modelfoundry_hub
+      need_welcome: true
+      cla_label: "modelfoundry-cla/yes"
+      review:
+        number_of_approvers: 1
+        total_number_of_approvers: 1
+        total_number_of_reviewers: 2
