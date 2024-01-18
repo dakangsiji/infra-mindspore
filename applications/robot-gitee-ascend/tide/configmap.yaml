@@ -177,7 +177,6 @@ data:
       - ascend/AscendSpeed2
       - ascend/ascend-inference
       - ascend/ascend-inference-ptplugin
-      - ascend/ModelLink
       labels:
       - label: lgtm
         tips_if_missing: "Please wait for reviewers to review the code."
@@ -205,6 +204,7 @@ data:
       - ascend/ModelZoo-PyTorch
       - ascend/modelzoo-GPL
       - ascend/ads
+      - ascend/ModelLink
       merge_method: squash
       labels:
       - label: lgtm
