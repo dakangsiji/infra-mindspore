@@ -112,7 +112,7 @@ spec:
     - ReadWriteMany
   resources:
     requests:
-      storage: 500Gi
+      storage: 2000Gi
   storageClassName: ssd
 # Deployment for repo service
 ---
